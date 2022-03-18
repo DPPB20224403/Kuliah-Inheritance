@@ -1,8 +1,12 @@
 class Main {
   public static void main(String[] args) {
-    Child anak = new Child();
+    Child anak       = new Child();
+    Parent campur    = new Child();
 
     System.out.println(anak.umur);
-    anak.cekPekerjaanOrangTua();
+    anak.Aktivitas();
+
+    System.out.println(campur.umur);
+    campur.Aktivitas();
   }
 }
